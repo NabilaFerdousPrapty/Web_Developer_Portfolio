@@ -11,6 +11,9 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+.section-margin {
+  margin-top: 50px;
+}
 
 /* header section style starts */
 nav {
@@ -147,7 +150,7 @@ main {
   line-height: 30px; /* 166.667% */
 }
 .us-details {
-    margin-top: 30px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -163,10 +166,54 @@ main {
   line-height: 30px; /* 150% */
 }
 .details p {
-    color: var(--Dark-02, #474747);
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
+  color: var(--Dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* what i do section starts here */
+.what-i-do p {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding: 30px;
+}
+.flexbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexbox {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding-top: 30px;
+  
+}
+.flexbox img {
+  align-self: start;
+  padding: 30px;
+}
+.flexbox h3 {
+ margin-left: 30px;
+  color: var(--Dark-01, #181818);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+
+ 
+  
+}
+.flex-box p {
+  color: var(--Dark-03, #757575);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  
 }
