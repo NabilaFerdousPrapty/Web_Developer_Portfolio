@@ -301,6 +301,7 @@ form input {
 }
 input ,textarea{
     border: none;
+    padding: 15px;
 }
 .submit{
     margin-top: 24px;
