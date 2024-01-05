@@ -177,7 +177,7 @@ main {
 .what-i-do p {
   color: var(--Dark-03, #757575);
   text-align: center;
-  font-family: Open Sans;
+
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -194,26 +194,113 @@ main {
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding-top: 30px;
-  
 }
 .flexbox img {
-  align-self: start;
   padding: 30px;
 }
 .flexbox h3 {
- margin-left: 30px;
+  margin-left: 30px;
   color: var(--Dark-01, #181818);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-
- 
-  
 }
 .flex-box p {
   color: var(--Dark-03, #757575);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  
+}
+
+/* my-resume section starts here  */
+.my-resume {
+  padding-bottom: 100px;
+}
+.resume {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+.resume-title {
+  color: var(--Dark-02, #474747);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.title {
+  color: var(--Dark-02, #474747);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+}
+.duration {
+  color: var(--Dark-03, #757575);
+  margin-top: 10px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.description {
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-top: 20px;
+}
+.download {
+  text-align: center;
+  margin: 50px;
+}
+/* 
+footer section starts here */
+footer {
+  padding: 100px 200px;
+  background-color: #fff8f3;
+}
+.lets-do {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.connect-title {
+  color: var(--Dark-01, #181818);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.connect-paragraph {
+  color: var(--Dark-02, #474747);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin: 20px 0px;
+}
+form input {
+  width: 461px;
+  height: 64px;
+  flex-shrink: 0;
+  margin: 24px 0px;
+}
+.message-title{
+  color: var(--Dark-01, #181818);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+input ,textarea{
+    border: none;
+}
+.submit{
+    margin-top: 24px;
 }
