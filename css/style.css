@@ -188,6 +188,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap:15px;
 }
 .flexbox {
   border-radius: 5px;
