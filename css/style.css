@@ -5,16 +5,16 @@
   padding: 0;
   box-sizing: border-box;
 }
- .text-primary{
-    color: #fd6e0a;
- }
+.text-primary {
+  color: #fd6e0a;
+}
 body {
-  margin: 50px 80px;
   font-family: "Open Sans", sans-serif;
 }
 
 /* header section style starts */
 nav {
+  padding: 50px 80px 0px 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,6 @@ nav {
   line-height: normal;
 }
 .nav-title span {
-  
   font-family: Open Sans;
   font-size: 45px;
   font-style: normal;
@@ -61,4 +60,113 @@ nav ul li a {
   font-weight: 700;
   line-height: normal;
   border: none;
+}
+header {
+  background: #fff8f3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-position: bottom right, left;
+  background-repeat: no-repeat;
+}
+
+/* banner style starts here */
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-intro {
+  color: var(--Dark-02, #474747);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.banner-title {
+  color: var(--Dark-01, #181818);
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.banner-text {
+  color: var(--Dark-03, #757575);
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.banner-img {
+  width: 584px;
+  height: 676px;
+}
+.secondary-btn {
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  width: 160px;
+  height: 64px;
+  color: #fd6e0a;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+/* main section starts here  */
+
+main {
+  padding: 50px 230px;
+}
+/* about us section stars here */
+.about-us {
+  width: 1140px;
+  height: 550px;
+  padding: 200px 150px;
+  border-radius: 10px;
+  background: #fff8f3;
+}
+.us-title {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.us-paragraph {
+  margin-top: 30px;
+  color: var(--Dark-03, #757575);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.us-details {
+    margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.details h5 {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.details p {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
 }
