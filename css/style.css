@@ -52,7 +52,7 @@ nav ul li a {
   line-height: normal;
 }
 .primary-btn {
-  width: 150px;
+  width: 170px;
   height: 64px;
   flex-shrink: 0;
   border-radius: 5px;
@@ -303,4 +303,7 @@ input ,textarea{
 }
 .submit{
     margin-top: 24px;
+}
+.submit button{
+    width: 140px;
 }
