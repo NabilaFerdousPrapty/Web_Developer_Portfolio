@@ -1,0 +1,64 @@
+/* universal styles */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Nunito:wght@400;500;700&family=Open+Sans:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .text-primary{
+    color: #fd6e0a;
+ }
+body {
+  margin: 50px 80px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header section style starts */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.nav-title span {
+  
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--Dark-02, #474747);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.primary-btn {
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: var(--White-Color, #fff);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
